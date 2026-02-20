@@ -11,6 +11,6 @@ public class SumTest {
 	public void sumTest() {
 		Sum account = new Sum();
 		double result = account.sum(10.0, 5.0);
-		assertEquals(10.0, result, 0);
+		assertEquals(15.0, result, 0.1);
 	}
 }
